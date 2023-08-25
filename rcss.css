@@ -1,0 +1,223 @@
+@media screen and (max-width:1440px) {
+    .player{
+        padding: 40px 100px;
+    }
+    .dice {
+        left: 45%;
+        top: 32%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .player{
+        padding: 60px 80px;
+    }
+    .player .name{
+        font-size: 34px;
+    }
+    .player .score{
+        font-size: 50px;
+    }
+    .dice {
+        left: 44%;
+        top: 31%;
+        width: 95px;
+    }
+    .btn{
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+    .btn--new {
+        left: 40%;
+    }
+    .btn--roll{
+        left: 42%;
+    }
+
+    .btn--hold{
+        left: 44%;
+    }
+    .current{
+        padding: 12px 40px;
+        line-height: 52px;
+    }
+}
+@media screen and (max-width:768px) {
+    .player {
+        padding: 60px 70px;
+    }
+    .player .name{
+        font-size: 24px;
+    }
+    .player .score{
+        font-size: 40px;
+    }
+    .current{
+        padding: 12px 25px;
+        line-height: 48px;
+    }
+    .dice {
+        left: 44%;
+        top: 31%;
+        width: 85px;
+    }
+    .btn{
+        padding: 7px 8px;
+        font-size: 15px;
+    }
+    .btn--new {
+        left: 40%;
+        top: 5%;
+    }
+    .btn--roll{
+        left: 41%;
+    }
+
+    .btn--hold{
+        left: 44%;
+    }
+    .current .current-label {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:600px) {
+    .player {
+        padding: 50px 55px;
+    }
+    .current{
+        padding: 10px 20px;
+        line-height: 40px;
+    }
+    .current .current-label {
+        font-size: 20px;
+    }
+    .dice {
+        left: 43%;
+        top: 32%;
+        width: 75px;
+    }
+    .btn{
+        padding: 6px 7px;
+        font-size: 14px;
+    }
+    .btn--new {
+        left: 38%;
+        top: 5%;
+    }
+    .btn--roll{
+        left: 40%;
+    }
+    .btn--hold{
+        left: 43%;
+    }
+}
+@media screen and (max-width:500px) {
+    .player {
+        padding: 45px 45px;
+    }
+    .player .name{
+        font-size: 22px;
+    }
+    .current{
+        padding: 8px 15px;
+        line-height: 35px;
+    }
+    .current .current-label {
+        font-size: 17px;
+    }
+    .dice {
+        left: 43%;
+        top: 32%;
+        width: 55px;
+    }
+    .btn{
+        padding: 5px 5px;
+        font-size: 13px;
+    }
+    .btn--new {
+        left: 37%;
+        top: 4%;
+    }
+    .btn--roll{
+        left: 39%;
+    }
+    .btn--hold{
+        left: 43%;
+    }
+}
+@media screen and (max-width:425px) {
+    .player {
+        padding: 45px 35px;
+    }
+    .player .name{
+        font-size: 20px;
+    }
+    .current{
+        padding: 5px 10px;
+        line-height: 30px;
+    }
+    .current .current-label {
+        font-size: 17px;
+    }
+    .current .current-score{
+        font-size: 26px;
+    }
+    .dice {
+        left: 42%;
+        top: 32%;
+        width: 50px;
+    }
+    .btn{
+        padding: 4px 4px;
+        font-size: 10px;
+    }
+    .btn--new {
+        left: 38%;
+        top: 4%;
+    }
+    .btn--roll{
+        left: 41%;
+        top: 70%;
+    }
+    .btn--hold{
+        left: 43%;
+        top: 77%;
+    }
+}
+@media screen and (max-width:320px) {
+    .player {
+        padding: 25px 20px;
+    }
+    .player .name{
+        font-size: 16px;
+    }
+    .current{
+        padding: 5px 5px;
+        line-height: 30px;
+    }
+    .current .current-label {
+        font-size: 15px;
+    }
+    .current .current-score{
+        font-size: 20px;
+    }
+    .dice {
+        left: 39%;
+        top: 32%;
+    }
+    .btn{
+        padding: 2px 2px;
+        font-size: 8px;
+    }
+    .btn--new {
+        left: 36%;
+        top: 2%;
+    }
+    .btn--roll{
+        left: 38%;
+        top: 66%;
+    }
+    .btn--hold{
+        left: 42%;
+        top: 94%;
+    }
+}
